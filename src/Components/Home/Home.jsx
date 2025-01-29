@@ -1,0 +1,43 @@
+import { Link } from 'react-router-dom'
+import imgMain from "../../assets/imgs/ImagenHome.png"
+import imgMain2 from "../../assets/imgs/ImagenHome2.png"
+import lg from "../../assets/imgs/Inicio.png"
+import CardHome from './CardHome/CardHome'
+import './home.css'
+
+const Home = () => {
+    return (
+        <>
+            <main className='containerMainHome'>
+                <section>
+                    <h1 className='styleH1'><strong>MythF</strong></h1>
+                    <h3>Somos una Agencia Digital, te ayudamos con tus Redes Sociales, Sitio Web y te vendemos Software ya hecho.</h3>
+                    <Link to={"/contacto"}>Contactanos</Link>
+                </section>
+                <div>
+                    <img src={imgMain} alt="Logo MythF" />
+                </div>
+            </main>
+            
+            <section className='containerSecondHome'>
+                <h2>¿Porque Nosotros?</h2>
+                <div>
+                    <img src={imgMain2} alt="Imagen MythF" />
+                </div>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi facilis ex in iusto earum reiciendis consequatur, ipsam eveniet dolore doloremque officia labore enim dolor. Cupiditate saepe ipsa animi vero amet! Minus impedit quia itaque eligendi repudiandae? Minima natus laborum eaque ipsa commodi non nam odit reiciendis at sunt. Aspernatur numquam asperiores voluptatem nobis impedit ducimus voluptate voluptatum repudiandae et nihil. Ullam quia cupiditate hic dolores praesentium incidunt ratione amet facere ipsam mollitia suscipit, est nisi pariatur. Culpa illo possimus numquam, accusamus, neque ducimus assumenda sequi recusandae minus fugit soluta odio?</p>
+            </section>
+            
+            <section className='containerThreeHome'>
+                <h2>Nuestros Servicios</h2>
+                <div>
+                    <CardHome title={"Manejo de Redes Sociales"} description={"Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus quis amet nostrum voluptate repudiandae voluptatum, earum esse voluptates neque, eum suscipit. Atque nisi ex quos modi commodi, inventore eos assumenda."} image={lg} />
+                    <CardHome title={"Desarrollo de Sitio Web"} description={"Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus quis amet nostrum voluptate repudiandae voluptatum, earum esse voluptates neque, eum suscipit. Atque nisi ex quos modi commodi, inventore eos assumenda."} image={lg} />
+                    <CardHome title={"Paquete de Software"} description={"Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus quis amet nostrum voluptate repudiandae voluptatum, earum esse voluptates neque, eum suscipit. Atque nisi ex quos modi commodi, inventore eos assumenda."} image={lg} />
+                    <CardHome title={"Google ADS"} description={"Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus quis amet nostrum voluptate repudiandae voluptatum, earum esse voluptates neque, eum suscipit. Atque nisi ex quos modi commodi, inventore eos assumenda."} image={lg} />
+                </div>
+            </section>
+        </>
+    )
+}
+
+export default Home

@@ -1,0 +1,86 @@
+.containerMainHome {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100vh;
+    margin-top: 50px;
+}
+
+.containerMainHome section {
+    flex: 1;
+    padding-right: 20px;
+}
+.containerMainHome section h3 {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+}
+.containerMainHome section a {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: rgb(177, 5, 40);
+    color: rgb(229, 229, 229);;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: 500;
+    transition: all ease-in-out 0.3s;
+}
+.containerMainHome section a:hover {
+    transition: all ease-in-out 0.3s;
+    background-color: rgb(221, 50, 59);
+}
+
+.containerMainHome div {
+    flex: 1;
+    text-align: center;
+}
+.containerMainHome div img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+
+
+
+
+.containerSecondHome{
+    margin-bottom: 20vh;
+}
+.containerSecondHome h2{
+    text-align: center;
+}
+.containerSecondHome div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.containerSecondHome img{
+    width: 500px;
+    object-fit: cover;
+    object-position: center;
+    margin-top: -110px;
+    margin-bottom: -80px;
+}
+.containerSecondHome p{
+    font-weight: 500;
+    letter-spacing: 0.2px;
+}
+
+
+
+
+.containerThreeHome {
+    padding: 20px;
+    margin-bottom: 10vh;
+}
+.containerThreeHome h2 {
+    text-align: center;
+    margin-bottom: 40px;
+}
+.containerThreeHome div {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 50px;
+    justify-items: center;
+    align-items: center;
+}
