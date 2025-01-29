@@ -2,7 +2,7 @@ import whatsapp from "../../assets/imgs/whatsapp.png";
 import whatsappDos from "../../assets/imgs/whatsappDos.png";
 import ig from "../../assets/imgs/instagramFooter.png";
 import fb from "../../assets/imgs/facebookFooter.png";
-import './Footer.css';
+import './footer.css';
 
 const Footer = () => {
     let year = new Date();

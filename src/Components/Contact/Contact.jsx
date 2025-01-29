@@ -1,6 +1,6 @@
 import whatsapp from "../../assets/imgs/whatsappGreen.png";
 import whatsappDos from "../../assets/imgs/whatsappDosGreen.png";
-import './Contact.css'
+import './contact.css'
 
 const Contact = () => {
     return (

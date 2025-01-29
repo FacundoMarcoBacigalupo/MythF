@@ -4,7 +4,7 @@ import projects from "../../assets/imgs/Proyectos.png"
 import serMarketing from "../../assets/imgs/ServiciosMarketing.png"
 import serSoftware from "../../assets/imgs/ServiciosSoftware.png"
 import contacto from "../../assets/imgs/Contacto.png"
-import "./NavBar.css"
+import "./navbar.css"
 
 const Navbar = () => {
     return (
