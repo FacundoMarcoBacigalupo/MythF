@@ -1,5 +1,5 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom" 
-import Navbar from '../Components/Navbar/Navbar.jsx';
+import NavBar from '../Components/NavBar/NavBar.jsx';
 import Footer from "../Components/Footer/Footer.jsx"
 import Home from '../Components/Home/Home.jsx';
 import Projects from '../Components/Projects/Projects.jsx';
@@ -10,7 +10,7 @@ import Contact from '../Components/Contact/Contact.jsx';
 const Router = () => {
     return (
         <BrowserRouter>
-            <Navbar />
+            <NavBar />
             <div id="main">
                 <div id="main-content">
                 <Routes>
