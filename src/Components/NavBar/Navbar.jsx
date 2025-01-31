@@ -6,7 +6,7 @@ import serSoftware from "../../assets/imgs/ServiciosSoftware.png"
 import contacto from "../../assets/imgs/Contacto.png"
 import "./navbar.css"
 
-const NavBar = () => {
+const navbar = () => {
     return (
         <nav id="navbar">
             <ul className="navbar-items flexbox-col">
@@ -64,4 +64,4 @@ const NavBar = () => {
     )
 }
 
-export default NavBar
+export default navbar

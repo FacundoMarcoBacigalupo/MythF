@@ -1,16 +1,16 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom" 
-import NavBar from '../Components/NavBar/NavBar.jsx';
-import Footer from "../Components/Footer/Footer.jsx"
-import Home from '../Components/Home/Home.jsx';
-import Projects from '../Components/Projects/Projects.jsx';
-import ServicesMarketing from '../Components/ServicesMarketing/ServicesMarketing.jsx';
-import ServicesDesarrollo from '../Components/ServicesServicesDesarrollo/ServicesDesarrollo.jsx';
-import Contact from '../Components/Contact/Contact.jsx';
+import Navbar from '../components/navbar/navbar.jsx';
+import Footer from "../components/Footer/Footer.jsx"
+import Home from '../components/Home/Home.jsx';
+import Projects from '../components/Projects/Projects.jsx';
+import ServicesMarketing from '../components/ServicesMarketing/ServicesMarketing.jsx';
+import ServicesDesarrollo from '../components/ServicesServicesDesarrollo/ServicesDesarrollo.jsx';
+import Contact from '../components/Contact/Contact.jsx';
 
 const Router = () => {
     return (
         <BrowserRouter>
-            <NavBar />
+            <Navbar />
             <div id="main">
                 <div id="main-content">
                 <Routes>
