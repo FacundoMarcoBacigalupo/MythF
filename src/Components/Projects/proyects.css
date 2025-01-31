@@ -1,8 +1,77 @@
-#proyects{
-    margin: 20px;
+.hero-container-project {
+    margin-left: -6em !important;
+    position: relative;
+    width: 95vw;
+    height: 30vh;
+    background-image: url("../../assets/imgs/proyectosFondo.png");
+    background-size: cover;
+    background-position: center;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    margin-bottom: 100px;
 }
-#proyects h2{
-    margin-top: 50px;
+
+
+.hero-overlay-project {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgb(229, 229, 229);
+    padding: 20px;
+    box-sizing: border-box;
+}
+.hero-overlay-project h1 {
+    font-size: 50px;
+    font-weight: bold;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
+    margin: auto;
+    text-align: center;
+}
+
+@media only screen and (max-width: 1350px) {
+    .hero-container-project {
+        width: 99.5vw;
+    }
+    .hero-overlay-project h1 {
+        font-size: 45px;
+    }
+} 
+@media only screen and (max-width: 900px) {
+    .hero-container-project {
+        width: 99vw;
+    }
+    .hero-overlay-project h1 {
+        font-size: 40px;
+    }
+}  
+@media only screen and (max-width: 768px) {
+    .hero-container-project {
+        margin-left: -5.9em !important;
+    }
+    .hero-overlay-project h1 {
+        font-size: 35px;
+    }
+}  
+@media only screen and (max-width: 610px) {
+    .hero-container-project {
+        margin-left: -6em !important;
+        width: 99vw;
+    }
+    .hero-overlay-project h1 {
+        font-size: 30px;
+    }
+}
+
+.containerProjectsDiv{
+    margin: 20px;
+    margin-bottom: 100px;
 }
 
 .containerProyects{
@@ -14,7 +83,7 @@
     grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-template-areas:
     "c1 c2 c3 c4"
-    "c5 c6 c7 c7";
+    "c5 c6 c6 c6";
     grid-gap: 20px;
 }
 
@@ -35,9 +104,6 @@
 }
 #c6{
     grid-area: c6;
-}
-#c7{
-    grid-area: c7;
 }
 
 
@@ -155,12 +221,11 @@
 @media screen and (max-width: 1420px) {
     .containerProyects{
         display: grid;
-        grid-template-rows: 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
         grid-template-columns: 1fr 1fr 1fr;
         grid-template-areas:
             "c1 c2 c3"
-            "c4 c5 c6"
-            "c7 c7 c7";
+            "c4 c5 c6";
     }
 }
 
@@ -168,13 +233,12 @@
 @media screen and (max-width: 1080px) {
     .containerProyects{
         display: grid;
-        grid-template-rows: 1fr 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
         grid-template-columns: 1fr 1fr;
         grid-template-areas:
             "c1 c2"
             "c3 c4"
-            "c5 c6"
-            "c7 c7";
+            "c5 c6";
     }
 }
 
@@ -182,7 +246,7 @@
 @media screen and (max-width: 728px) {
     .containerProyects{
         display: grid;
-        grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
         grid-template-columns: 1fr;
         grid-template-areas:
         "c1"
@@ -190,7 +254,6 @@
         "c3"
         "c4"
         "c5"
-        "c6"
-        "c7";
+        "c6";
     }
 }
