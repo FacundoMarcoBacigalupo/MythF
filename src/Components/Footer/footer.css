@@ -1,0 +1,124 @@
+footer {
+    margin-top: 5px;
+    text-align: center;
+    font-size: 1rem;
+    font-weight: 600;
+    animation: glow 5s infinite alternate;    
+    background-color: rgb(229, 229, 229);
+    color: rgb(20, 20, 20);
+}
+
+@media only screen and (max-width: 1400px) {
+    footer {
+        margin-left: -1em !important;
+    }
+}  
+@media only screen and (max-width: 768px) {
+    footer {
+        margin-left: -2em !important;
+    }
+}
+
+@keyframes glow {
+    0% {
+        box-shadow: 0 0 2px rgb(229, 229, 229), 0 0 4px rgb(229, 229, 229), 0 0 6px rgb(229, 229, 229);
+    }
+    100% {
+        box-shadow: 0 0 4px rgb(229, 229, 229), 0 0 6px rgb(229, 229, 229), 0 0 8px rgb(229, 229, 229);
+    }
+}
+
+.containerFooter {
+    padding: 10px;
+    text-align: center;
+}
+
+.fw-bold {
+    font-weight: bold;
+}
+
+.hrStyles {
+    width: 60px;
+    background-color: rgb(20, 20, 20);
+    height: 3px;
+    margin: 0 auto;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.col-md-3, .col-lg-4, .col-xl-3 {
+    flex: 0 0 100%;
+    max-width: 100%;
+    margin-bottom: 1.5rem;
+}
+
+@media (min-width: 768px) {
+    .col-md-3 {
+        flex: 0 0 25%;
+        max-width: 25%;
+    }
+    .col-lg-4 {
+        flex: 0 0 33.3333%;
+        max-width: 33.3333%;
+    }
+    .col-xl-3 {
+        flex: 0 0 25%;
+        max-width: 25%;
+    }
+}
+
+.imgStyle {
+    width: 20px;
+    height: 20px;
+    object-fit: cover;
+    object-position: center;
+    vertical-align: middle;
+}
+
+.colorUpDown {
+    margin-top: 10px;
+    border-top: solid 3px rgb(20, 20, 20);
+}
+.colorUpDown p{
+    margin-top: 5px;
+}
+
+p {
+    margin-top: 11px;
+    margin-bottom: 0px;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.text-md-start {
+    text-align: left;
+}
+
+.RRSSFooter{
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.RRSSFooter a{
+    text-decoration: none;
+    margin-left: 10px;
+}
+.RRSSFooter img{
+    width: 25px;
+    object-fit: cover;
+    object-position: center;
+}
+
+.styleFooterRRSS div{
+    margin-top: 10px;
+}
+.styleFooterRRSS a{
+    text-decoration: none;
+}
