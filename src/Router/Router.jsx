@@ -1,6 +1,6 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom" 
-// import Navbar from "../components/Navbar/Navbar.jsx";
-// import Footer from "../components/Footer/Footer.jsx";
+import Navbar from "../components/Navbar/Navbar.jsx";
+import Footer from "../components/Footer/Footer.jsx";
 import Home from "../components/Home/Home.jsx";
 import Projects from "../components/Projects/Projects.jsx";
 import ServicesMarketing from "../components/ServicesMarketing/ServicesMarketing.jsx";
@@ -10,7 +10,7 @@ import Contact from "../components/Contact/Contact.jsx";
 const Router = () => {
     return (
         <BrowserRouter>
-            {/* <Navbar /> */}
+            <Navbar />
             <div id="main">
                 <div id="main-content">
                 <Routes>
@@ -22,7 +22,7 @@ const Router = () => {
                     <Route path="*" element={<h1>Error 404</h1>} />
                 </Routes>
                 </div>
-                {/* <Footer /> */}
+                <Footer />
             </div>
         </BrowserRouter>
     )
