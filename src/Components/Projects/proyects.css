@@ -1,17 +1,40 @@
 .hero-container-project {
-    margin-left: -6em !important;
     position: relative;
-    width: 95vw;
-    height: 30vh;
+    width: 100%;
+    height: 35vh;
     background-image: url("../../assets/imgs/proyectosFondo.png");
     background-size: cover;
     background-position: center;
-    margin: 0;
     padding: 0;
     overflow: hidden;
     margin-bottom: 100px;
 }
-
+@media only screen and (max-width: 1350px) {
+    .hero-overlay-project h1 {
+        font-size: 45px;
+    }
+} 
+@media only screen and (max-width: 900px) {
+    .hero-container-project{
+        height: 30vh;
+    }
+    .hero-overlay-project h1 {
+        font-size: 40px;
+    }
+}  
+@media only screen and (max-width: 768px) {
+    .hero-overlay-project h1 {
+        font-size: 35px;
+    }
+}  
+@media only screen and (max-width: 610px) {
+    .hero-container-project{
+        height: 25vh;
+    }
+    .hero-overlay-project h1 {
+        font-size: 30px;
+    }
+}
 
 .hero-overlay-project {
     position: absolute;
@@ -35,39 +58,6 @@
     text-align: center;
 }
 
-@media only screen and (max-width: 1350px) {
-    .hero-container-project {
-        width: 99.5vw;
-    }
-    .hero-overlay-project h1 {
-        font-size: 45px;
-    }
-} 
-@media only screen and (max-width: 900px) {
-    .hero-container-project {
-        width: 99vw;
-    }
-    .hero-overlay-project h1 {
-        font-size: 40px;
-    }
-}  
-@media only screen and (max-width: 768px) {
-    .hero-container-project {
-        margin-left: -5.9em !important;
-    }
-    .hero-overlay-project h1 {
-        font-size: 35px;
-    }
-}  
-@media only screen and (max-width: 610px) {
-    .hero-container-project {
-        margin-left: -6em !important;
-        width: 99vw;
-    }
-    .hero-overlay-project h1 {
-        font-size: 30px;
-    }
-}
 
 .containerProjectsDiv{
     margin: 20px;

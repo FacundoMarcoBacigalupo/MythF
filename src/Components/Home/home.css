@@ -2,8 +2,9 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    height: 100vh;
-    margin-top: 50px;
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-bottom: 100px;
 }
 
 .containerMainHome section {
@@ -34,17 +35,36 @@
     text-align: center;
 }
 .containerMainHome div img {
-    max-width: 100%;
-    height: auto;
+    width: 500px;
     border-radius: 10px;
+}
+@media (max-width: 1050px) {
+    .containerMainHome div img {
+        width: 400px;
+    }
+}
+@media (max-width: 850px) {
+    .containerMainHome div img {
+        width: 350px;
+    }
+}
+@media (max-width: 750px) {
+    .containerMainHome div img {
+        width: 300px;
+    }
+}
+@media (max-width: 650px) {
+    .containerMainHome div img {
+        width: 250px;
+    }
 }
 
 
 
-
-
 .containerSecondHome{
-    margin-bottom: 20vh;
+    margin-bottom: 180px;
+    margin-left: 30px;
+    margin-right: 30px;
 }
 .containerSecondHome h2{
     text-align: center;
@@ -70,8 +90,9 @@
 
 
 .containerThreeHome {
-    padding: 20px;
-    margin-bottom: 10vh;
+    margin-bottom: 100px;
+    margin-left: 30px;
+    margin-right: 30px;
 }
 .containerThreeHome h2 {
     text-align: center;

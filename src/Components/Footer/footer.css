@@ -8,17 +8,6 @@ footer {
     color: rgb(20, 20, 20);
 }
 
-@media only screen and (max-width: 1400px) {
-    footer {
-        margin-left: -1em !important;
-    }
-}  
-@media only screen and (max-width: 768px) {
-    footer {
-        margin-left: -2em !important;
-    }
-}
-
 @keyframes glow {
     0% {
         box-shadow: 0 0 2px rgb(229, 229, 229), 0 0 4px rgb(229, 229, 229), 0 0 6px rgb(229, 229, 229);
@@ -38,9 +27,11 @@ footer {
 }
 
 .hrStyles {
-    width: 60px;
+    width: 65px;
     background-color: rgb(20, 20, 20);
-    height: 3px;
+    border: 1px solid rgb(20, 20, 20);
+    box-shadow: 1px 2px 5px rgb(20, 20, 20);
+    height: 1px;
     margin: 0 auto;
 }
 
@@ -48,6 +39,14 @@ footer {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
+}
+.row section{
+    margin: auto;
+    margin-top: 30px;
+}
+.row section h4{
+    letter-spacing: 3
+    px;
 }
 
 .col-md-3, .col-lg-4, .col-xl-3 {
@@ -80,8 +79,9 @@ footer {
 }
 
 .colorUpDown {
-    margin-top: 10px;
+    margin-top: 20px;
     border-top: solid 3px rgb(20, 20, 20);
+    box-shadow: 1px 2px 20px rgb(20, 20, 20);
 }
 .colorUpDown p{
     margin-top: 5px;
@@ -107,7 +107,6 @@ p {
     align-items: center;
 }
 .RRSSFooter a{
-    text-decoration: none;
     margin-left: 10px;
 }
 .RRSSFooter img{

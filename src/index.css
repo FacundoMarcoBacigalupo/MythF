@@ -44,7 +44,19 @@ input, textarea {
   cursor: url('./assets/imgs/escribe.png'), text;
 }
 
+a{
+  text-decoration: none;
+  color: rgb(20, 20, 20);
+}
 
+.containerSitioWeb{
+  margin-top: 62px;
+}
+@media (max-width: 768px) {
+  .containerSitioWeb{
+    margin-top: 50px;
+  }
+}
 
 @keyframes gradient {
   0% {
@@ -110,4 +122,4 @@ input, textarea {
   .styleH2{
       font-size: 20px;
   }
-}  
+}

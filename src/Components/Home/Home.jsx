@@ -32,8 +32,8 @@ const Home = () => {
                 <div>
                     <CardHome title={"Manejo de Redes Sociales"} description={"Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus quis amet nostrum voluptate repudiandae voluptatum, earum esse voluptates neque, eum suscipit. Atque nisi ex quos modi commodi, inventore eos assumenda."} image={lg} />
                     <CardHome title={"Desarrollo de Sitio Web"} description={"Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus quis amet nostrum voluptate repudiandae voluptatum, earum esse voluptates neque, eum suscipit. Atque nisi ex quos modi commodi, inventore eos assumenda."} image={lg} />
-                    <CardHome title={"Paquete de Software"} description={"Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus quis amet nostrum voluptate repudiandae voluptatum, earum esse voluptates neque, eum suscipit. Atque nisi ex quos modi commodi, inventore eos assumenda."} image={lg} />
                     <CardHome title={"Google ADS"} description={"Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus quis amet nostrum voluptate repudiandae voluptatum, earum esse voluptates neque, eum suscipit. Atque nisi ex quos modi commodi, inventore eos assumenda."} image={lg} />
+                    <CardHome title={"Paquete de Software"} description={"Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus quis amet nostrum voluptate repudiandae voluptatum, earum esse voluptates neque, eum suscipit. Atque nisi ex quos modi commodi, inventore eos assumenda."} image={lg} />
                 </div>
             </section>
         </>

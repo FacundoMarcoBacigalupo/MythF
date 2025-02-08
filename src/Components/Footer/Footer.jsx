@@ -12,7 +12,7 @@ const Footer = () => {
             <section>
                 <div className="containerFooter">
                     <div className="row">
-                        <div className="col-md-3 col-lg-4 col-xl-3">
+                        <section className="col-md-3 col-lg-4 col-xl-3">
                             <h4 className="fw-bold">Redes Sociales</h4>
                             <hr className="hrStyles" />
                             <div className="RRSSFooter">
@@ -23,18 +23,18 @@ const Footer = () => {
                                 <img src={fb} alt="Facebook MythF" />
                                 <a href="https://www.facebook.com/agenciamythf" target="_blank" rel="noreferrer">agenciamythf</a>
                             </div>
-                        </div>
+                        </section>
                         
-                        <div className="col-md-2 col-lg-2 col-xl-2">
+                        <section className="col-md-2 col-lg-2 col-xl-2">
                             <h4 className="fw-bold">Servicios</h4>
                             <hr className="hrStyles" />
                             <p>Manejo de Redes Sociales</p>
                             <p>Desarrollo de Sitio Web</p>
                             <p>Paquete de Software</p>
                             <p>Google ADS</p>
-                        </div>
+                        </section>
                         
-                        <div className="col-md-4 col-lg-3 col-xl-3 styleFooterRRSS">
+                        <section className="col-md-4 col-lg-3 col-xl-3 styleFooterRRSS">
                             <h4 className="fw-bold">Contacto</h4>
                             <hr className="hrStyles" />
                             <div>
@@ -47,7 +47,7 @@ const Footer = () => {
                                     <img className="imgStyle" src={whatsappDos} alt="whatsapp" /> +54 9 11 2252-4921
                                 </a>
                             </div>
-                        </div>
+                        </section>
                     </div>
                 </div>
             </section>

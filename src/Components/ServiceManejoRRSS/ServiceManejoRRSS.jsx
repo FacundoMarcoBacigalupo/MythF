@@ -1,4 +1,4 @@
-import './servicesmarketing.css'
+import './serviceManejoRRSS.css'
 
 const ServicesMarketing = () => {
     return (
