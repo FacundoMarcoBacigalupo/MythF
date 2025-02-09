@@ -5,6 +5,7 @@ import projects from "../../assets/imgs/Proyectos.png";
 import serMarketing from "../../assets/imgs/ServiciosMarketing.png";
 import serSoftware from "../../assets/imgs/ServiciosSoftware.png";
 import contacto from "../../assets/imgs/Contacto.png";
+import logo from "../../assets/imgs/logo.png"
 import "./navbar.css";
 
 const Navbar = () => {
@@ -42,7 +43,7 @@ const Navbar = () => {
                 {/* Logo */}
                 <div className="logo">
                     <Link to={"/"}>
-                        <p>Logo</p>
+                        <img src={logo} alt="Logo de MythF" />
                     </Link>
                 </div>
 
@@ -77,6 +78,22 @@ const Navbar = () => {
                             <div>
                                 <img src={serSoftware} alt="Servicios Software Icon" />
                                 <span>Desarrollo Web</span>
+                            </div>
+                        </Link>
+                    </li>
+                    <li className="styles-menu-items">
+                        <Link to={"/servicio-google-ads"} onClick={closeMenu}>
+                            <div>
+                                <img src={serSoftware} alt="Servicios Software Icon" />
+                                <span>Google Ads</span>
+                            </div>
+                        </Link>
+                    </li>
+                    <li className="styles-menu-items">
+                        <Link to={"/servicio-paquete-software"} onClick={closeMenu}>
+                            <div>
+                                <img src={serSoftware} alt="Servicios Software Icon" />
+                                <span>Paquete de software</span>
                             </div>
                         </Link>
                     </li>

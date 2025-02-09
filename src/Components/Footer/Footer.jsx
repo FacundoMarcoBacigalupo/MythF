@@ -30,8 +30,8 @@ const Footer = () => {
                             <hr className="hrStyles" />
                             <p>Manejo de Redes Sociales</p>
                             <p>Desarrollo de Sitio Web</p>
-                            <p>Paquete de Software</p>
                             <p>Google ADS</p>
+                            <p>Paquete de Software</p>
                         </section>
                         
                         <section className="col-md-4 col-lg-3 col-xl-3 styleFooterRRSS">
