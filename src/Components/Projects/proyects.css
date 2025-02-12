@@ -111,6 +111,10 @@
     box-shadow: 1px 1px 40px rgb(41, 41, 41);
     transition: all .5s;
 }
+.card:active {
+    box-shadow: 1px 1px 40px rgb(41, 41, 41);
+    transition: all .5s;
+}
 
 
 
@@ -118,8 +122,8 @@
     height: 390px;
     overflow: hidden;
     background-color: #000;
-    -webkit-transition: height 0.5s;
-    transition: height 0.5s;
+    -webkit-transition: height 0.8s;
+    transition: height 0.8s;
     object-fit: cover;
     object-position: center;
 }
@@ -130,16 +134,24 @@
     opacity: 1;
     -webkit-transform: scale(1);
     transform: scale(1);
-    -webkit-transition: opacity 0.5s, -webkit-transform 0.5s;
-    transition: opacity 0.5s, -webkit-transform 0.5s;
-    transition: opacity 0.5s, transform 0.5s;
-    transition: opacity 0.5s, transform 0.5s, -webkit-transform 0.5s;
+    -webkit-transition: opacity 0.8s, -webkit-transform 0.8s;
+    transition: opacity 0.8s, -webkit-transform 0.8s;
+    transition: opacity 0.8s, transform 0.8s;
+    transition: opacity 0.8s, transform 0.8s, -webkit-transform 0.8s;
 }
 
 .card:hover .card__thumb {
     height: 23  0px;
 }
 .card:hover .card__thumb img {
+    opacity: 0.6;
+    -webkit-transform: scale(1.2);
+    transform: scale(1.2);
+}
+.card:active .card__thumb {
+    height: 230px;
+}
+.card:active .card__thumb img {
     opacity: 0.6;
     -webkit-transform: scale(1.2);
     transform: scale(1.2);
@@ -151,10 +163,13 @@
     position: relative;
     height: 120px;
     padding: 20px;
-    -webkit-transition: height 0.5s;
-    transition: height 0.5s;
+    -webkit-transition: height 0.8s;
+    transition: height 0.8s;
 }
 .card:hover .card__body {   
+    height: 90px;
+}
+.card:active .card__body {   
     height: 90px;
 }
 
@@ -165,12 +180,18 @@
     font-size: 18px;
     font-weight: bold;
     opacity: 1;
-    transition: opacity 0.3s;
+    transition: opacity 0.8s;
 }
 .card:hover .card__title {
     opacity: 0;
 }   
 .card__body:hover .card__title {
+    opacity: 0;
+}
+.card:active .card__title {
+    opacity: 0;
+}   
+.card__body:active .card__title {
     opacity: 0;
 }
 
@@ -191,7 +212,7 @@
     background-color: crimson;
     font-weight: 900;
     transform: translateY(45px);
-    transition: opacity 0.3s, transform 0.3s;
+    transition: opacity 0.8s, transform 0.8s;
 }
 .card__more:hover{
     color: crimson;
@@ -199,6 +220,16 @@
     transition: all .8s;
 }
 .card:hover .card__more {
+    opacity: 1;
+    top: 40px;
+    transform: translateY(0px);
+}
+.card__more:active{
+    color: crimson;
+    background-color: #000;
+    transition: all .8s;
+}
+.card:active .card__more {
     opacity: 1;
     top: 40px;
     transform: translateY(0px);

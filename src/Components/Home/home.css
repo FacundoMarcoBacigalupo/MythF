@@ -6,7 +6,6 @@
     margin-right: 30px;
     margin-bottom: 100px;
 }
-
 .containerMainHome section {
     flex: 1;
     padding-right: 20px;
@@ -37,26 +36,6 @@
 .containerMainHome div img {
     width: 500px;
     border-radius: 10px;
-}
-@media (max-width: 1050px) {
-    .containerMainHome div img {
-        width: 400px;
-    }
-}
-@media (max-width: 850px) {
-    .containerMainHome div img {
-        width: 350px;
-    }
-}
-@media (max-width: 750px) {
-    .containerMainHome div img {
-        width: 300px;
-    }
-}
-@media (max-width: 650px) {
-    .containerMainHome div img {
-        width: 250px;
-    }
 }
 
 
@@ -96,12 +75,54 @@
 }
 .containerThreeHome h2 {
     text-align: center;
-    margin-bottom: 40px;
+    margin-bottom: 20px;
 }
 .containerThreeHome div {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    gap: 50px;
+    gap: 40px;
     justify-items: center;
     align-items: center;
+}
+
+
+
+@media (max-width: 1050px) {
+    .containerMainHome div img {
+        width: 400px;
+    }
+}
+@media (max-width: 850px) {
+    .containerMainHome div img {
+        width: 350px;
+    }
+}
+@media (max-width: 750px) {
+    .containerMainHome{
+        display: block;
+    }
+    .containerMainHome section{
+        margin-top: 120px;
+    }
+    .containerMainHome div img {
+        width: 350px;
+        margin-top: -20px;
+    }
+    .containerSecondHome img{
+        width: 400px;
+        margin-top: -100px;
+    }
+}
+@media (max-width: 650px) {
+    .containerMainHome div img {
+        width: 300px;
+    }
+    .containerSecondHome img{
+        width: 350px;
+        margin-top: -80px;
+    }
+    .containerThreeHome div {
+        grid-template-columns: repeat(1, 1fr);
+        gap: 10px;
+    }
 }
