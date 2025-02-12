@@ -29,7 +29,7 @@ const ServicesDesarrollo = () => {
                 </section>
             </div>
             
-            <div className="containerServiciosWhite" style={{height:"55vh"}}>
+            <div className="containerServiciosWhite">
                 <section>
                     <h3>lorem</h3>
                     <hr />

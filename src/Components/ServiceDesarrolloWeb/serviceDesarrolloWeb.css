@@ -130,7 +130,7 @@
     width: calc(50% - 10px); /* Dos elementos por fila en escritorio */
     background-color: rgb(229, 229, 229);
     color: rgb(20, 20, 20);
-    box-shadow: 1px 2px 10px rgba(0, 0, 0, 0.934);
+    box-shadow: 1px 2px 8px rgba(255, 255, 255, 0.69);
     padding: 20px;
     display: flex;
     align-items: center;
