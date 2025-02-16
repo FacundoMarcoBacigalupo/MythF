@@ -4,10 +4,10 @@ import "./cardhome.css"
 const CardHome = ({ title, description, image }) => {
     return (
         <>
-        <article className="card">
-            <div className="card__border"></div>
-            <section className="card_title__container">
-                <span className="card_title">{title}</span>
+        <article className="cardHome">
+            <div className="cardHome__border"></div>
+            <section className="cardHome_title__container">
+                <span className="cardHome_title">{title}</span> 
             </section>
             
             <p className="list_text">{description}</p>

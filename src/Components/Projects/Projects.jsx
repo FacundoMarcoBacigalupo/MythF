@@ -41,7 +41,7 @@ const Projects = () => {
                             <img src={ToDo} alt='ToDo' />
                         </header>
                         <div className="card__body">
-                            <p className="card__title">ToDo, lista de tareas más una sección para buscar y descargar imágenes</p>
+                            <p className="card__title">ToDo más una sección para buscar y descargar imágenes</p>
                             <a href='https://lista-de-tareas-todo.netlify.app' target="_blank" rel="noreferrer" className="card__more">Ver más</a>
                         </div>
                     </article>

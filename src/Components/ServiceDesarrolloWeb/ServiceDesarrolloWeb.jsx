@@ -9,7 +9,10 @@ const ServicesDesarrollo = () => {
             <section>
                 <h1><strong>Servicio Desarrollo Web</strong></h1>
                 <hr />
-                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quis velit repudiandae quidem, nisi tempore explicabo eaque quam itaque, beatae nesciunt omnis corporis molestiae vitae nemo? Pariatur expedita nulla officiis quo?</p>
+                <p>¿Estas buscando tener un Sitio Web profesional
+                    <br />
+                    Este servii
+                </p>
             </section>
             <picture>
                 <img src={back} alt="Imagen de Desarrollo Web" />

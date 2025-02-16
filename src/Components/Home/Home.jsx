@@ -1,7 +1,10 @@
 import { Link } from 'react-router-dom'
 import imgMain from "../../assets/imgs/ImagenHome.png"
 import imgMain2 from "../../assets/imgs/ImagenHome2.png"
-import lg from "../../assets/imgs/Inicio.png"
+import rrss from "../../assets/imgs/manejoRedesSociales.png"
+import web from "../../assets/imgs/SitioWeb.png"
+import ads from "../../assets/imgs/googleAds.png"
+import software from "../../assets/imgs/software.png"
 import CardHome from './CardHome/CardHome'
 import './home.css'
 
@@ -30,10 +33,10 @@ const Home = () => {
             <section className='containerThreeHome'>
                 <h2>Nuestros Servicios</h2>
                 <div>
-                    <CardHome title={"Manejo de Redes Sociales"} description={"Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus quis amet nostrum voluptate repudiandae voluptatum, earum esse voluptates neque, eum suscipit. Atque nisi ex quos modi commodi, inventore eos assumenda."} image={lg} />
-                    <CardHome title={"Desarrollo de Sitio Web"} description={"Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus quis amet nostrum voluptate repudiandae voluptatum, earum esse voluptates neque, eum suscipit. Atque nisi ex quos modi commodi, inventore eos assumenda."} image={lg} />
-                    <CardHome title={"Google ADS"} description={"Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus quis amet nostrum voluptate repudiandae voluptatum, earum esse voluptates neque, eum suscipit. Atque nisi ex quos modi commodi, inventore eos assumenda."} image={lg} />
-                    <CardHome title={"Paquete de Software"} description={"Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus quis amet nostrum voluptate repudiandae voluptatum, earum esse voluptates neque, eum suscipit. Atque nisi ex quos modi commodi, inventore eos assumenda."} image={lg} />
+                    <CardHome title={"Manejo de Redes Sociales"} description={"Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus quis amet nostrum voluptate repudiandae voluptatum, earum esse voluptates neque, eum suscipit. Atque nisi ex quos modi commodi, inventore eos assumenda."} image={rrss} />
+                    <CardHome title={"Desarrollo de Sitio Web"} description={"Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus quis amet nostrum voluptate repudiandae voluptatum, earum esse voluptates neque, eum suscipit. Atque nisi ex quos modi commodi, inventore eos assumenda."} image={web} />
+                    <CardHome title={"Google ADS"} description={"Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus quis amet nostrum voluptate repudiandae voluptatum, earum esse voluptates neque, eum suscipit. Atque nisi ex quos modi commodi, inventore eos assumenda."} image={ads} />
+                    <CardHome title={"Paquete de Software"} description={"Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus quis amet nostrum voluptate repudiandae voluptatum, earum esse voluptates neque, eum suscipit. Atque nisi ex quos modi commodi, inventore eos assumenda."} image={software} />
                 </div>
             </section>
         </>

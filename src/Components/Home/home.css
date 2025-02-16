@@ -96,6 +96,10 @@
     .containerMainHome div img {
         width: 350px;
     }
+    .containerThreeHome div {
+        grid-template-columns: repeat(1, 1fr);
+        gap: 10px;
+    }
 }
 @media (max-width: 750px) {
     .containerMainHome{
@@ -120,9 +124,5 @@
     .containerSecondHome img{
         width: 350px;
         margin-top: -80px;
-    }
-    .containerThreeHome div {
-        grid-template-columns: repeat(1, 1fr);
-        gap: 10px;
     }
 }

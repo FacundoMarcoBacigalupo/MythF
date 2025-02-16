@@ -9,32 +9,7 @@
     overflow: hidden;
     margin-bottom: 100px;
 }
-@media only screen and (max-width: 1350px) {
-    .hero-overlay-project h1 {
-        font-size: 45px;
-    }
-} 
-@media only screen and (max-width: 900px) {
-    .hero-container-project{
-        height: 30vh;
-    }
-    .hero-overlay-project h1 {
-        font-size: 40px;
-    }
-}  
-@media only screen and (max-width: 768px) {
-    .hero-overlay-project h1 {
-        font-size: 35px;
-    }
-}  
-@media only screen and (max-width: 610px) {
-    .hero-container-project{
-        height: 25vh;
-    }
-    .hero-overlay-project h1 {
-        font-size: 30px;
-    }
-}
+
 
 .hero-overlay-project {
     position: absolute;
@@ -98,7 +73,7 @@
 
 
 .card {
-    height: 390px;
+    height: 490px;
     margin-top: 20px;
     margin-bottom: 40px;
     border: 1px solid rgba(255, 255, 255, 0.11);
@@ -117,7 +92,6 @@
 }
 
 
-
 .card__thumb {
     height: 390px;
     overflow: hidden;
@@ -127,7 +101,6 @@
     object-fit: cover;
     object-position: center;
 }
-
 .card__thumb img {
     width: 100%;
     display: block;
@@ -139,9 +112,8 @@
     transition: opacity 0.8s, transform 0.8s;
     transition: opacity 0.8s, transform 0.8s, -webkit-transform 0.8s;
 }
-
 .card:hover .card__thumb {
-    height: 23  0px;
+    height: 380px;
 }
 .card:hover .card__thumb img {
     opacity: 0.6;
@@ -161,7 +133,7 @@
 
 .card__body {
     position: relative;
-    height: 120px;
+    height: 100px;
     padding: 20px;
     -webkit-transition: height 0.8s;
     transition: height 0.8s;
@@ -212,12 +184,14 @@
     background-color: crimson;
     font-weight: 900;
     transform: translateY(45px);
-    transition: opacity 0.8s, transform 0.8s;
+    /* transition: all opacity 0.4s, transform 0.4s; */
+    transition: all ease-in-out .4s;
 }
 .card__more:hover{
     color: crimson;
     background-color: #000;
-    transition: all .8s;
+    /* transition: all .4s; */
+    transition: all ease-in-out .4s;
 }
 .card:hover .card__more {
     opacity: 1;
@@ -227,7 +201,8 @@
 .card__more:active{
     color: crimson;
     background-color: #000;
-    transition: all .8s;
+    /* transition: all .4s; */
+    transition: all ease-in-out .4s;
 }
 .card:active .card__more {
     opacity: 1;
@@ -236,8 +211,36 @@
 }
 
 
-
-
+@media only screen and (max-width: 1350px) {
+    .hero-overlay-project h1 {
+        font-size: 45px;
+    }
+} 
+@media only screen and (max-width: 900px) {
+    .hero-container-project{
+        height: 30vh;
+    }
+    .hero-overlay-project h1 {
+        font-size: 40px;
+    }
+}  
+@media only screen and (max-width: 768px) {
+    .hero-overlay-project h1 {
+        font-size: 35px;
+    }
+    .card:hover .card__thumb img {
+        transform: none;
+        opacity: 1;
+    }
+}  
+@media only screen and (max-width: 610px) {
+    .hero-container-project{
+        height: 25vh;
+    }
+    .hero-overlay-project h1 {
+        font-size: 30px;
+    }
+}
 
 @media screen and (max-width: 1420px) {
     .containerProyects{
@@ -250,7 +253,6 @@
     }
 }
 
-
 @media screen and (max-width: 1080px) {
     .containerProyects{
         display: grid;
@@ -262,7 +264,6 @@
             "c5 c6";
     }
 }
-
 
 @media screen and (max-width: 728px) {
     .containerProyects{
