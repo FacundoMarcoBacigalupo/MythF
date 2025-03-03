@@ -1,10 +1,5 @@
 import { Link, useLocation } from "react-router-dom";
 import { useEffect, useState } from "react";
-import home from "../../assets/imgs/Inicio.png";
-import projects from "../../assets/imgs/Proyectos.png";
-import serMarketing from "../../assets/imgs/ServiciosMarketing.png";
-import serSoftware from "../../assets/imgs/ServiciosSoftware.png";
-import contacto from "../../assets/imgs/Contacto.png";
 import logo from "../../assets/imgs/logoSinFondo.png"
 import "./navbar.css";
 
@@ -46,63 +41,42 @@ const Navbar = () => {
                         <img src={logo} alt="Logo de MythF" />
                     </Link>
                 </div>
-
+                
                 {/* Menú de navegación */}
                 <div className={`menu-items ${isOpen ? "open" : ""}`}>
                     <li className="styles-menu-items">
                         <Link to={"/"} onClick={closeMenu}>
-                            <div>
-                                <img src={home} alt="Home Icon" />
-                                <span>Inicio</span>
-                            </div>
+                        <p>Inicio</p>
                         </Link>
                     </li>
                     <li className="styles-menu-items">
                         <Link to={"/proyectos"} onClick={closeMenu}>
-                            <div>
-                                <img src={projects} alt="Proyectos Icon" />
-                                <span>Proyectos</span>
-                            </div>
+                        <p>Proyectos</p>
                         </Link>
                     </li>
                     <li className="styles-menu-items">
                         <Link to={"/servicio-manejor-redes-sociales"} onClick={closeMenu}>
-                            <div>
-                                <img src={serMarketing} alt="Servicios Marketing Icon" />
-                                <span>Manejo Redes Sociales</span>
-                            </div>
+                        <p>Manejo Redes Sociales</p>
                         </Link>
                     </li>
                     <li className="styles-menu-items">
                         <Link to={"/servicio-desarrollo-web"} onClick={closeMenu}>
-                            <div>
-                                <img src={serSoftware} alt="Servicios Software Icon" />
-                                <span>Desarrollo Web</span>
-                            </div>
+                        <p>Desarrollo Web</p>
                         </Link>
                     </li>
                     <li className="styles-menu-items">
                         <Link to={"/servicio-google-ads"} onClick={closeMenu}>
-                            <div>
-                                <img src={serSoftware} alt="Servicios Software Icon" />
-                                <span>Google Ads</span>
-                            </div>
+                        <p>Google Ads</p>
                         </Link>
                     </li>
                     <li className="styles-menu-items">
                         <Link to={"/servicio-paquete-software"} onClick={closeMenu}>
-                            <div>
-                                <img src={serSoftware} alt="Servicios Software Icon" />
-                                <span>Paquete de software</span>
-                            </div>
+                        <p>Paquete de software</p>
                         </Link>
                     </li>
                     <li className="styles-menu-items">
                         <Link to={"/contacto"} onClick={closeMenu}>
-                            <div>
-                                <img src={contacto} alt="Contacto Icon" />
-                                <span>Contactanos</span>
-                            </div>
+                        <p>Contactanos</p>
                         </Link>
                     </li>
                 </div>

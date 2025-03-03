@@ -18,13 +18,13 @@
     text-align: center;
     font-size: 2.5rem;
     margin-bottom: 5px;
-    color: rgb(20, 20, 20);
+    color: rgb(10, 10, 10);
 }
 .containerServiciosWhite h3 {
     text-align: center;
     font-size: 1.5rem;
     margin-bottom: 5px;
-    color: rgb(20, 20, 20);
+    color: rgb(10, 10, 10);
 }
 .containerServiciosWhite hr {
     width: 40%;
@@ -35,9 +35,10 @@
     margin-bottom: 15px;
 }
 .containerServiciosWhite p {
-    font-size: 1rem;
+    font-size: 1.1rem;
+    letter-spacing: .5px;
     font-weight: 600;
-    color: rgb(20, 20, 20);
+    color: rgb(10, 10, 10);
 }
 .containerServiciosWhite picture {
     display: flex;
@@ -66,7 +67,7 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    background-color: rgb(20, 20, 20);
+    background-color: rgb(10, 10, 10);
     box-shadow: 1px 2px 10px rgba(0, 0, 0, 0.879);
     padding: 30px;
     margin-bottom: 40px;
@@ -92,7 +93,8 @@
     margin-bottom: 15px;
 }
 .containerServiciosBlack p {
-    font-size: 1rem;
+    font-size: 1.1rem;
+    letter-spacing: .5px;
     font-weight: 600;
     color: rgb(229, 229, 229);
 }
@@ -129,7 +131,7 @@
 .porqueServicios div {
     width: calc(50% - 10px); /* Dos elementos por fila en escritorio */
     background-color: rgb(229, 229, 229);
-    color: rgb(20, 20, 20);
+    color: rgb(10, 10, 10);
     box-shadow: 1px 2px 8px rgba(255, 255, 255, 0.69);
     padding: 20px;
     display: flex;
@@ -146,7 +148,16 @@
 }
 
 
-@media (max-width: 980px) {
+.listosContactanos{
+    text-align: center;
+    margin-bottom: 50px;
+}
+.listosContactanos a{
+    color: rgb(177, 5, 40);
+    border-bottom: 2px solid rgb(177, 5, 40);
+}
+
+@media (max-width: 1120px) {
     .porqueServicios div {
         width: 100%; /* Un solo elemento por fila en móviles */
     }
@@ -188,6 +199,9 @@
         max-width: 300px;
         height: auto;
     }
+    .containerServiciosWhite h1 {
+        font-size: 2.1rem;
+    }
 }
 @media (max-width: 800px) {
     .information h2{
@@ -196,17 +210,14 @@
     .porqueServicios h2{
         font-size: 1.5rem;
     }
-    .containerServiciosWhite h1 {
-        font-size: 2rem;
-    }
     .containerServiciosWhite p {
-        font-size: .9rem;
+        font-size: 1rem;
     }
     .containerServiciosBlack p {
-        font-size: .9rem;
+        font-size: 1rem;
     }
 }
-@media (max-width: 480px) {
+@media (max-width: 580px) {
     .information h2{
         font-size: 1.2rem;
     }
@@ -214,12 +225,12 @@
         font-size: 1.2rem;
     }
     .containerServiciosWhite h1 {
-        font-size: 1.6rem;
+        font-size: 1.5rem;
     }
     .containerServiciosWhite p {
-        font-size: .8rem;
+        font-size: .9rem;
     }
     .containerServiciosBlack p {
-        font-size: .8rem;
+        font-size: .9em;
     }
 }

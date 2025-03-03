@@ -11,22 +11,20 @@ import './home.css'
 const Home = () => {
     return (
         <>
+            <picture className='imageHome'>
+                <img src={imgMain} alt="Logo MythF" />
+            </picture>
             <main className='containerMainHome'>
                 <section>
-                    <h1 className='styleH1'><strong>MythF</strong></h1>
                     <h3>Somos una Agencia Digital, te ayudamos con tus Redes Sociales, Sitio Web y te vendemos Software ya hecho.</h3>
                     <Link to={"/contacto"}>Contactanos</Link>
                 </section>
-                <div>
-                    <img src={imgMain} alt="Logo MythF" />
-                </div>
             </main>
             
+            <picture className='imageHome'>
+                <img src={imgMain2} alt="Imagen MythF" />
+            </picture>
             <section className='containerSecondHome'>
-                <h2>¿Porque Nosotros?</h2>
-                <div>
-                    <img src={imgMain2} alt="Imagen MythF" />
-                </div>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi facilis ex in iusto earum reiciendis consequatur, ipsam eveniet dolore doloremque officia labore enim dolor. Cupiditate saepe ipsa animi vero amet! Minus impedit quia itaque eligendi repudiandae? Minima natus laborum eaque ipsa commodi non nam odit reiciendis at sunt. Aspernatur numquam asperiores voluptatem nobis impedit ducimus voluptate voluptatum repudiandae et nihil. Ullam quia cupiditate hic dolores praesentium incidunt ratione amet facere ipsam mollitia suscipit, est nisi pariatur. Culpa illo possimus numquam, accusamus, neque ducimus assumenda sequi recusandae minus fugit soluta odio?</p>
             </section>
             

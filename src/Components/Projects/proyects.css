@@ -21,7 +21,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    color: rgb(229, 229, 229);
+    color:#E4E2DD;
     padding: 20px;
     box-sizing: border-box;
 }
@@ -78,7 +78,7 @@
     margin-bottom: 40px;
     border: 1px solid rgba(255, 255, 255, 0.11);
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
-    background-color: rgba(0, 0, 0, 0.507);
+    background-color: #E4E2DD;
     overflow: hidden;
     transition: box-shadow 0.5s;
 }
@@ -95,7 +95,7 @@
 .card__thumb {
     height: 390px;
     overflow: hidden;
-    background-color: #000;
+    background-color: #000000;
     -webkit-transition: height 0.8s;
     transition: height 0.8s;
     object-fit: cover;
@@ -148,7 +148,7 @@
 .card__title {
     margin: 0px;
     padding: 0px;
-    color: #fff;
+    color: #000000;
     font-size: 18px;
     font-weight: bold;
     opacity: 1;
@@ -178,9 +178,9 @@
     text-align: center;
     margin: 0px;
     padding: 5px;
-    border: 1px solid #000;
+    border: 1px solid #000000;
     border-radius: 5px;
-    color: #000;
+    color: #000000;
     background-color: crimson;
     font-weight: 900;
     transform: translateY(45px);
@@ -189,7 +189,7 @@
 }
 .card__more:hover{
     color: crimson;
-    background-color: #000;
+    background-color: #000000;
     /* transition: all .4s; */
     transition: all ease-in-out .4s;
 }
@@ -200,7 +200,7 @@
 }
 .card__more:active{
     color: crimson;
-    background-color: #000;
+    background-color: #000000;
     /* transition: all .4s; */
     transition: all ease-in-out .4s;
 }

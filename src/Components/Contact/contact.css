@@ -45,7 +45,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    color: rgb(229, 229, 229);
+    color: #E4E2DD;
     padding: 20px;
     box-sizing: border-box;
 }
@@ -61,9 +61,13 @@
 
 .textContacto{
     margin-top: 40px;
-    margin-bottom: 100px;
+    margin-bottom: 60px;
     margin-left: 30px;
     margin-right: 30px;
+}
+.textContacto p{
+    font-weight: 500;
+    font-size: 1rem;
 }
 
 
@@ -75,6 +79,7 @@
 }
 .containerDudas p{
     margin-left: 10px;
+    font-weight: bold;
 }
 .containerDudas div{
     display: flex;
@@ -89,6 +94,7 @@
     margin-right: 10px;
 }
 .containerDudas a{
-    color: rgb(229, 229, 229);
+    color: #000000;
+    font-weight: bold;
     text-decoration: none;
 }

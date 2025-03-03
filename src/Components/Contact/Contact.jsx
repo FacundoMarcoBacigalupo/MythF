@@ -13,7 +13,7 @@ const Contact = () => {
             
             <section className="textContacto">
                 <h2>¿Estas list@ para despegar tu negocio?</h2>
-                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptas, exercitationem recusandae repellendus ad quae optio quia esse consectetur error, doloremque, aperiam aliquid. Suscipit pariatur facilis delectus quis dignissimos explicabo perspiciatis?</p>
+                <p>No dejes pasar la oportunidad de llevar tu proyecto al siguiente nivel. Contáctanos hoy mismo y hagamos crecer tu marca juntos. ¡Estamos listos para impulsar tu éxito!</p>
             </section>
             
             <section className='containerDudas'>
