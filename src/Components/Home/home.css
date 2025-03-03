@@ -10,7 +10,7 @@
 .containerMainHome section a {
     display: inline-block;
     padding: 10px 20px;
-    background-color: rgb(177, 5, 40);
+    background-color: #373a3c;
     color: #E4E2DD;
     text-decoration: none;
     border-radius: 5px;
@@ -19,7 +19,7 @@
 }
 .containerMainHome section a:hover {
     transition: all ease-in-out 0.3s;
-    background-color: rgb(120, 2, 26);
+    background-color: #242627;
 }
 
 .imageHome {

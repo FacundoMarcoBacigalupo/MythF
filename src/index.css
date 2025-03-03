@@ -15,12 +15,12 @@
 }
 
 ::-webkit-scrollbar-thumb {
-  background-color: #E4E2DD;
+  background-color: #373a3c;
   border-radius: 10px;
 }
 
 ::selection {
-  color: #E4E2DD;
+  color: #373a3c;
   background-color: #000000;
   border-radius: 10px;
 }
