@@ -3,7 +3,6 @@ import imgMain from "../../assets/imgs/ImagenHome.png"
 import imgMain2 from "../../assets/imgs/ImagenHome2.png"
 import rrss from "../../assets/imgs/manejoRedesSociales.png"
 import web from "../../assets/imgs/SitioWeb.png"
-import ads from "../../assets/imgs/googleAds.png"
 import software from "../../assets/imgs/software.png"
 import CardHome from './CardHome/CardHome'
 import './home.css'
@@ -16,7 +15,7 @@ const Home = () => {
             </picture>
             <main className='containerMainHome'>
                 <section>
-                    <h3>Somos una Agencia Digital, te ayudamos con tus Redes Sociales, Sitio Web y te vendemos Software ya hecho.</h3>
+                    <h2>Somos una Agencia Digital que potencia tu presencia online. Gestionamos tus Redes Sociales, diseñamos tu Sitio Web y ofrecemos Software listo para usar, para que lleves tu negocio al siguiente nivel</h2>
                     <Link to={"/contacto"}>Contactanos</Link>
                 </section>
             </main>
@@ -25,16 +24,17 @@ const Home = () => {
                 <img src={imgMain2} alt="Imagen MythF" />
             </picture>
             <section className='containerSecondHome'>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi facilis ex in iusto earum reiciendis consequatur, ipsam eveniet dolore doloremque officia labore enim dolor. Cupiditate saepe ipsa animi vero amet! Minus impedit quia itaque eligendi repudiandae? Minima natus laborum eaque ipsa commodi non nam odit reiciendis at sunt. Aspernatur numquam asperiores voluptatem nobis impedit ducimus voluptate voluptatum repudiandae et nihil. Ullam quia cupiditate hic dolores praesentium incidunt ratione amet facere ipsam mollitia suscipit, est nisi pariatur. Culpa illo possimus numquam, accusamus, neque ducimus assumenda sequi recusandae minus fugit soluta odio?</p>
+                <p>Elegirnos significa contar con un equipo dedicado a entender tus necesidades y objetivos. Nos diferenciamos por nuestra creatividad, compromiso y la capacidad de ofrecer soluciones digitales completas, desde la gestión de redes sociales hasta el desarrollo de software. Trabajamos de manera personalizada, asegurándonos de que cada estrategia esté alineada con lo que realmente importa para tu negocio. ¡Tu éxito es nuestra misión!</p>
             </section>
             
             <section className='containerThreeHome'>
                 <h2>Nuestros Servicios</h2>
                 <div>
-                    <CardHome title={"Manejo de Redes Sociales"} description={"Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus quis amet nostrum voluptate repudiandae voluptatum, earum esse voluptates neque, eum suscipit. Atque nisi ex quos modi commodi, inventore eos assumenda."} image={rrss} />
-                    <CardHome title={"Desarrollo de Sitio Web"} description={"Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus quis amet nostrum voluptate repudiandae voluptatum, earum esse voluptates neque, eum suscipit. Atque nisi ex quos modi commodi, inventore eos assumenda."} image={web} />
-                    <CardHome title={"Google ADS"} description={"Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus quis amet nostrum voluptate repudiandae voluptatum, earum esse voluptates neque, eum suscipit. Atque nisi ex quos modi commodi, inventore eos assumenda."} image={ads} />
-                    <CardHome title={"Paquete de Software"} description={"Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus quis amet nostrum voluptate repudiandae voluptatum, earum esse voluptates neque, eum suscipit. Atque nisi ex quos modi commodi, inventore eos assumenda."} image={software} />
+                    <CardHome title={"Manejo de Redes Sociales"} description={"Manejamos tus redes sociales de principio a fin: creamos contenido, diseñamos publicaciones, planificamos estrategias, gestionamos anuncios y nos encargamos de la interacción con tu comunidad para hacer crecer tu marca. ¡Vos creás, nosotros lo hacemos brillar!"} image={rrss} />
+                    
+                    <CardHome title={"Desarrollo de Sitio Web"} description={"Tener una presencia online efectiva es fundamental para cualquier empresa o emprendimiento. Nuestro servicio de desarrollo web te ofrece soluciones personalizadas, adaptadas a tus necesidades y objetivos. Desde el primer contacto hasta la entrega fina."} image={web} />
+                    
+                    <CardHome title={"Paquete de Software"} description={"Te ofrecemos soluciones digitales a medida con software ya desarrollado. Agiliza tu negocio con herramientas eficientes, seguras y fáciles de implementar. ¡Todo listo para que empieces a crecer hoy!"} image={software} />
                 </div>
             </section>
         </>

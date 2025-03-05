@@ -65,11 +65,6 @@ const Navbar = () => {
                         </Link>
                     </li>
                     <li className="styles-menu-items">
-                        <Link to={"/servicio-google-ads"} onClick={closeMenu}>
-                        <p>Google Ads</p>
-                        </Link>
-                    </li>
-                    <li className="styles-menu-items">
                         <Link to={"/servicio-paquete-software"} onClick={closeMenu}>
                         <p>Paquete de software</p>
                         </Link>

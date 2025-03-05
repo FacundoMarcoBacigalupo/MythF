@@ -67,22 +67,22 @@ const ServicesDesarrollo = () => {
             <div style={{backgroundColor:"rgb(10, 10, 10)", color:"rgb(229, 229, 229)"}}>
                 <img src={imgPersonalizacion} alt="Imagen de los beneficios de elegirnos" />
                 <section>
-                    <h3>Pronta Personalización</h3>
-                    <p>Nuestros desarrolladores web experimentados proporcionan soluciones web de personalización sobre la marcha, ahorramos tiempo y entregamos un producto de calidad.</p>
+                    <h3>24/7</h3>
+                    <p>Estamos disponibles en todo momento.</p>
                 </section>
             </div>
             <div>
                 <img src={imgPersonalizacion} alt="Imagen de los beneficios de elegirnos" />
                 <section>
-                    <h3>Pronta Personalización</h3>
-                    <p>Nuestros desarrolladores web experimentados proporcionan soluciones web de personalización sobre la marcha, ahorramos tiempo y entregamos un producto de calidad.</p>
+                    <h3>Precios Accesible</h3>
+                    <p>Los mejores precios para ayudarte a potenciar tu marca/negocio.</p>
                 </section>
             </div>
             <div style={{backgroundColor:"rgb(10, 10, 10)", color:"rgb(229, 229, 229)"}}>
                 <img src={imgPersonalizacion} alt="Imagen de los beneficios de elegirnos" />
                 <section>
-                    <h3>Pronta Personalización</h3>
-                    <p>Nuestros desarrolladores web experimentados proporcionan soluciones web de personalización sobre la marcha, ahorramos tiempo y entregamos un producto de calidad.</p>
+                    <h3>100% Confiables</h3>
+                    <p>Somos un equipo profesional, bueno y muy confiable.</p>
                 </section>
             </div>
         </section>

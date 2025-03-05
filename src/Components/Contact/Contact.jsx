@@ -7,13 +7,13 @@ const Contact = () => {
         <>
             <main className="hero-container">
                 <div className="hero-overlay">
-                    <h1><strong>Contactate con nosotros</strong></h1>
+                    <h1><strong>¡Contáctanos!</strong></h1>
                 </div>
             </main>
             
             <section className="textContacto">
-                <h2>¿Estas list@ para despegar tu negocio?</h2>
-                <p>No dejes pasar la oportunidad de llevar tu proyecto al siguiente nivel. Contáctanos hoy mismo y hagamos crecer tu marca juntos. ¡Estamos listos para impulsar tu éxito!</p>
+                <h2>¿Tenés alguna consulta o querés saber más sobre nuestros servicios?</h2>
+                <p>¡Estamos para ayudarte! Mándanos un mensaje y juntos llevamos tu negocio al próximo nivel.</p>
             </section>
             
             <section className='containerDudas'>

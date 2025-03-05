@@ -102,8 +102,8 @@ a{
 .styleH2{
   font-size: 40px;
   font-weight: bold;
-  margin-bottom: 20px;
-  text-align: left;
+  margin-bottom: 10px;
+  text-align: center;
 }
 @media only screen and (max-width: 1350px) {
   .styleH2{
