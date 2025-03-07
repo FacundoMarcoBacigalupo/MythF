@@ -55,8 +55,11 @@ const ServicesDesarrollo = () => {
             </div>
         </section>
         
-        <section className="porqueServicios">
+        <div className="information">
             <h2>¿Por qué Elegir Nuestros Servicios de Desarrollo Web?</h2>
+        </div>
+        
+        <article className="porqueServicios">
             <div>
                 <img src={imgPersonalizacion} alt="Imagen de los beneficios de elegirnos" />
                 <section>
@@ -85,7 +88,7 @@ const ServicesDesarrollo = () => {
                     <p>Somos un equipo profesional, bueno y muy confiable.</p>
                 </section>
             </div>
-        </section>
+        </article>
         
         <div className="listosContactanos">
             <h2><strong>¿Listo para llevar tu presencia online al siguiente nivel? <Link to={"/contacto"}>Contáctanos</Link> y trabajemos juntos en la creación de tu sitio web ideal.</strong></h2>

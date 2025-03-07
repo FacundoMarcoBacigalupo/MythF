@@ -17,8 +17,10 @@ const ServicesMarketing = () => {
             </picture>
         </main>
         
+        <div className="information">
+            <h2>¿Por qué Elegir Nuestros Servicios de Manejo de Redes Sociales?</h2>
+        </div>
         <section className="porqueServicios">
-            <h2>¿Por qué Elegir Nuestros Servicios de Manejamos de Redes Sociales?</h2>
             <div>
                 <img src={imgPersonalizacion} alt="Imagen de los beneficios de elegirnos" />
                 <section>

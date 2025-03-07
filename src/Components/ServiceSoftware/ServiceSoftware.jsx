@@ -1,6 +1,8 @@
 import { Link } from "react-router-dom"
 import back from "../../assets/imgs/fondoServicioWeb.png"
 import imgPersonalizacion from "../../assets/imgs/personalizacion.png"
+import imgToDo from "../../assets/imgs/imagen-ToDo.jpg"
+import imgPdf from "../../assets/imgs/imagen-pdf.png"
 import './serviceSoftware.css'
 
 const ServiceSoftware = () => {
@@ -34,48 +36,39 @@ const ServiceSoftware = () => {
         </main>
         
         <section className="information">
-            <h2>Etapas en la creación de su Sitio Web</h2>
+            <h2>Nuestros Paquetes de Software</h2>
             <div className="containerServiciosBlack">
                 <picture>
-                    <img src={back} alt="Imagen de una etapa" />
+                    <img src={imgToDo} alt="Imagen de una etapa" />
                 </picture>
                 <section>
-                    <h3></h3>
+                    <h3>Lista de Tareas Web</h3>
                     <hr />
-                    <p></p>
+                    <p>Este Paquete de Software es un ToDo List en la Web, lo que permite que una vez ejectuado ya se tiene una lista de tareas totalmente personal y localmente.</p>
                 </section>
             </div>
             
-            <div className="containerServiciosWhite">
+            {/* <div className="containerServiciosWhite">
                 <section>
-                    <h3></h3>
+                    <h3>Generador de Reportes en PDF</h3>
                     <hr />
-                    <p></p>
+                    <p>Este Paquete de Software permite convertir archivos de texto (.txt, .docx) en documentos PDF de manera rápida y sencilla. Ideal para generar reportes profesionales sin necesidad de herramientas en línea.</p>
                 </section>
                 <picture>
-                    <img src={back} alt="Imagen de una etapa" />
+                    <img src={imgPdf} alt="Imagen de una etapa" />
                 </picture>
-            </div>
-            
-            <div className="containerServiciosBlack">
-                <picture>
-                    <img src={back} alt="Imagen de una etapa" />
-                </picture>
-                <section>
-                    <h3></h3>
-                    <hr />
-                    <p></p>
-                </section>
-            </div>
+            </div> */}
         </section>
         
+        <div className="information">
+            <h2>¿Por qué Elegir Nuestro Paquete de Software?</h2>
+        </div>
         <section className="porqueServicios">
-            <h2>¿Por qué Elegir Nuestros Servicios de Desarrollo Web?</h2>
             <div>
                 <img src={imgPersonalizacion} alt="Imagen de los beneficios de elegirnos" />
                 <section>
-                    <h3>Pronta Personalización</h3>
-                    <p>Nuestros desarrolladores web experimentados proporcionan soluciones web de personalización sobre la marcha, ahorramos tiempo y entregamos un producto de calidad.</p>
+                    <h3>Software ya hecho</h3>
+                    <p>Los paquetes de software son programas ya hechos y funcionales que buscan resolver un problema en contreto.</p>
                 </section>
             </div>
             <div style={{backgroundColor:"rgb(10, 10, 10)", color:"rgb(229, 229, 229)"}}>
