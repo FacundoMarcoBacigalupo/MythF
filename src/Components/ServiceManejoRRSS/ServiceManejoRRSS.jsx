@@ -1,5 +1,5 @@
 import { Link } from 'react-router-dom'
-import back from "../../assets/imgs/fondoServicioWeb.png"
+import imgRrss from "../../assets/imgs/imagen-redes-sociales.webp"
 import imgPersonalizacion from "../../assets/imgs/personalizacion.png"
 import './serviceManejoRRSS.css'
 
@@ -8,12 +8,12 @@ const ServicesMarketing = () => {
         <>
         <main className="containerServiciosWhite">
             <section>
-                <h1><strong>Manejamos tus redes sociales de principio a fin</strong></h1>
+                <h1><strong>Manejamos tus Redes Sociales de principio a fin</strong></h1>
                 <hr />
                 <p>Creamos contenido, diseñamos publicaciones, planificamos estrategias, gestionamos anuncios y nos encargamos de la interacción con tu comunidad para hacer crecer tu marca. ¡Vos creás, nosotros lo hacemos brillar!</p>
             </section>
             <picture>
-                <img src={back} alt="Imagen de Desarrollo Web" />
+                <img src={imgRrss} alt="Imagen de Desarrollo Web" />
             </picture>
         </main>
         

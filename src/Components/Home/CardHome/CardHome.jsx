@@ -1,9 +1,10 @@
 /* eslint-disable react/prop-types */
+import { Link } from "react-router-dom"
 import "./cardhome.css"
 
-const CardHome = ({ title, description, image }) => {
+const CardHome = ({ title, description, image, url }) => {
     return (
-        <>
+        <Link to={url}>
         <article className="cardHome">
             <div className="cardHome__border"></div>
             <section className="cardHome_title__container">
@@ -16,7 +17,7 @@ const CardHome = ({ title, description, image }) => {
                 <img src={image} alt={title} />
             </section>
         </article>
-        </>
+        </Link>
     )
 }
 

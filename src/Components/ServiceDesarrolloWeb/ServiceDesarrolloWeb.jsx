@@ -1,5 +1,8 @@
 import { Link } from "react-router-dom"
-import back from "../../assets/imgs/fondoServicioWeb.png"
+import imgDesarrolloWeb from "../../assets/imgs/imagen-desarrollo-web.jpg"
+import imgDesarrolloWeb1 from "../../assets/imgs/imagen-planificacion.jpg"
+import imgDesarrolloWeb2 from "../../assets/imgs/imagen-diseño.jpg"
+import imgDesarrolloWeb3 from "../../assets/imgs/imagen-lanzamiento.png"
 import imgPersonalizacion from "../../assets/imgs/personalizacion.png"
 import './serviceDesarrolloWeb.css'
 
@@ -8,12 +11,12 @@ const ServicesDesarrollo = () => {
         <>
         <main className="containerServiciosWhite">
             <section>
-                <h1><strong>Desarrollo Web a Medida para tu Negocio</strong></h1>
+                <h1><strong>Desarrollo de Sitio Web a Medida</strong></h1>
                 <hr />
                 <p>En el mundo digital actual, tener una presencia online efectiva es fundamental para cualquier empresa o emprendimiento. Nuestro servicio de desarrollo web te ofrece soluciones personalizadas, adaptadas a tus necesidades y objetivos. Desde el primer contacto hasta la entrega final, trabajamos contigo para crear un sitio web funcional, atractivo y optimizado para ofrecer la mejor experiencia a tus usuarios.</p>
             </section>
             <picture>
-                <img src={back} alt="Imagen de Desarrollo Web" />
+                <img src={imgDesarrolloWeb} alt="Imagen de Desarrollo Web" />
             </picture>
         </main>
         
@@ -21,7 +24,7 @@ const ServicesDesarrollo = () => {
             <h2>Etapas en la creación de su Sitio Web</h2>
             <div className="containerServiciosBlack">
                 <picture>
-                    <img src={back} alt="Imagen de una etapa" />
+                    <img src={imgDesarrolloWeb1} alt="Imagen de una etapa" />
                 </picture>
                 <section>
                     <h3>1. Planificación y Estrategia</h3>
@@ -37,13 +40,13 @@ const ServicesDesarrollo = () => {
                     <p>Una vez establecido el plan, pasamos a la etapa de creación. Implementamos las tecnologías más avanzadas para garantizar un sitio web rápido, seguro y adaptable a cualquier dispositivo. Diseñamos una interfaz intuitiva y atractiva, asegurando que la experiencia del usuario sea óptima. Durante este proceso, mantenemos una comunicación constante contigo para que puedas ver avances y sugerir mejoras en tiempo real.</p>
                 </section>
                 <picture>
-                    <img src={back} alt="Imagen de una etapa" />
+                    <img src={imgDesarrolloWeb2} alt="Imagen de una etapa" />
                 </picture>
             </div>
             
             <div className="containerServiciosBlack">
                 <picture>
-                    <img src={back} alt="Imagen de una etapa" />
+                    <img src={imgDesarrolloWeb3} alt="Imagen de una etapa" />
                 </picture>
                 <section>
                     <h3>3. Implementación y Lanzamiento</h3>

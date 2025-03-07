@@ -30,11 +30,11 @@ const Home = () => {
             <section className='containerThreeHome'>
                 <h2>Nuestros Servicios</h2>
                 <div>
-                    <CardHome title={"Manejo de Redes Sociales"} description={"Manejamos tus redes sociales de principio a fin: creamos contenido, diseñamos publicaciones, planificamos estrategias, gestionamos anuncios y nos encargamos de la interacción con tu comunidad para hacer crecer tu marca. ¡Vos creás, nosotros lo hacemos brillar!"} image={rrss} />
+                    <CardHome title={"Manejo de Redes Sociales"} description={"Manejamos tus redes sociales de principio a fin: creamos contenido, diseñamos publicaciones, planificamos estrategias, gestionamos anuncios y nos encargamos de la interacción con tu comunidad para hacer crecer tu marca. ¡Vos creás, nosotros lo hacemos brillar!"} image={rrss} url={"/servicio-manejor-redes-sociales"} />
                     
-                    <CardHome title={"Desarrollo de Sitio Web"} description={"Tener una presencia online efectiva es fundamental para cualquier empresa o emprendimiento. Nuestro servicio de desarrollo web te ofrece soluciones personalizadas, adaptadas a tus necesidades y objetivos. Desde el primer contacto hasta la entrega fina."} image={web} />
+                    <CardHome title={"Desarrollo de Sitio Web"} description={"Tener una presencia online efectiva es fundamental para cualquier empresa o emprendimiento. Nuestro servicio de desarrollo web te ofrece soluciones personalizadas, adaptadas a tus necesidades y objetivos. Desde el primer contacto hasta la entrega fina."} image={web} url={"/servicio-desarrollo-web"} />
                     
-                    <CardHome title={"Paquete de Software"} description={"Te ofrecemos soluciones digitales a medida con software ya desarrollado. Agiliza tu negocio con herramientas eficientes, seguras y fáciles de implementar. ¡Todo listo para que empieces a crecer hoy!"} image={software} />
+                    <CardHome title={"Paquete de Software"} description={"Te ofrecemos soluciones digitales a medida con software ya desarrollado. Agiliza tu negocio con herramientas eficientes, seguras y fáciles de implementar. ¡Todo listo para que empieces a crecer hoy!"} image={software} url={"/servicio-paquete-software"} />
                 </div>
             </section>
         </>

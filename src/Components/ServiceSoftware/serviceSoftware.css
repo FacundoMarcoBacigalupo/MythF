@@ -4,6 +4,10 @@
     border-bottom: 2px solid #000000;
 }
 
+.containerServiceSoftware img{
+    object-position: right;
+}
+
 @media (max-width: 580px) {
     .containerServiceSoftware section > p > span{
         font-size: 1rem;

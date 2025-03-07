@@ -1,8 +1,8 @@
 import { Link } from "react-router-dom"
-import back from "../../assets/imgs/fondoServicioWeb.png"
+import imgSoftware from "../../assets/imgs/imagen-software.jpg"
 import imgPersonalizacion from "../../assets/imgs/personalizacion.png"
 import imgToDo from "../../assets/imgs/imagen-ToDo.jpg"
-import imgPdf from "../../assets/imgs/imagen-pdf.png"
+// import imgPdf from "../../assets/imgs/imagen-pdf.png"
 import './serviceSoftware.css'
 
 const ServiceSoftware = () => {
@@ -31,7 +31,7 @@ const ServiceSoftware = () => {
                 </p>
             </section>
             <picture>
-                <img src={back} alt="Imagen de Desarrollo Web" />
+                <img src={imgSoftware} alt="Imagen de Desarrollo Web" />
             </picture>
         </main>
         
