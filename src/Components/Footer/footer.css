@@ -45,8 +45,7 @@ footer {
     margin-top: 30px;
 }
 .row section h4{
-    letter-spacing: 3
-    px;
+    letter-spacing: 2px;
 }
 
 .col-md-3, .col-lg-4, .col-xl-3 {
@@ -87,9 +86,13 @@ footer {
     margin-top: 5px;
 }
 
-p {
+
+.containerRRSSfooter div{
     margin-top: 11px;
     margin-bottom: 0px;
+}
+.containerRRSSfooter div a{
+    color: #E4E2DD;
 }
 
 .text-center {

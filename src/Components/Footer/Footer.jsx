@@ -3,6 +3,7 @@ import whatsappDos from "../../assets/imgs/whatsappDos.png";
 import ig from "../../assets/imgs/instagramFooter.png";
 import fb from "../../assets/imgs/facebookFooter.png";
 import './footer.css';
+import { Link } from "react-router-dom";
 
 const Footer = () => {
     let year = new Date();
@@ -25,13 +26,18 @@ const Footer = () => {
                             </div>
                         </section>
                         
-                        <section className="col-md-2 col-lg-2 col-xl-2">
+                        <section className="col-md-2 col-lg-2 col-xl-2 containerRRSSfooter">
                             <h4 className="fw-bold">Servicios</h4>
                             <hr className="hrStyles" />
-                            <p>Manejo de Redes Sociales</p>
-                            <p>Desarrollo de Sitio Web</p>
-                            <p>Google ADS</p>
-                            <p>Paquete de Software</p>
+                            <div>
+                                <Link to={"/servicio-manejor-redes-sociales"}> Manejo de Redes Sociales</Link>
+                            </div>
+                            <div>
+                                <Link to={"/servicio-desarrollo-web"}>Desarrollo de Sitio Web</Link>
+                            </div>
+                            <div>
+                                <Link to={"/servicio-paquete-software"}>Paquete de Software</Link>
+                            </div>
                         </section>
                         
                         <section className="col-md-4 col-lg-3 col-xl-3 styleFooterRRSS">
