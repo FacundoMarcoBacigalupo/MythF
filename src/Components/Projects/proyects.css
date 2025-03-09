@@ -118,9 +118,9 @@
     -webkit-transform: scale(1.2);
     transform: scale(1.2);
 }
-.card:active .card__thumb {
+/* .card:active .card__thumb {
     height: 230px;
-}
+} */
 .card:active .card__thumb img {
     opacity: 0.6;
     -webkit-transform: scale(1.2);
@@ -139,9 +139,9 @@
 .card:hover .card__body {   
     height: 90px;
 }
-.card:active .card__body {   
-    height: 90px;
-}
+    .card:active .card__body {   
+        height: 90px;
+    }
 
 .card__title {
     margin: 0px;

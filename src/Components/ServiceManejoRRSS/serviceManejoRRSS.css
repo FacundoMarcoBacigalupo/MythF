@@ -1,0 +1,43 @@
+.containerRRSS article {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* 3 columnas en escritorio */
+    gap: 10px; /* Espaciado entre imágenes */
+    justify-items: center; /* Centra las imágenes dentro de cada celda */
+}
+
+.containerRRSS picture {
+    width: 90%; /* Asegura que las imágenes ocupen todo el espacio */
+    margin: auto;
+}
+
+.containerRRSS img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+/* Para tablets: 2 imágenes arriba y 1 centrada abajo */
+@media (max-width: 1024px) {
+    .containerRRSS article {
+        grid-template-columns: repeat(2, 1fr); /* 2 columnas */
+    }
+
+    .containerRRSS picture:nth-child(3) { 
+        grid-column: span 2; /* Hace que la tercera imagen ocupe dos columnas y quede centrada */
+        justify-self: center; /* La centra horizontalmente */
+        max-width: 50%; /* Opcional: para que no sea demasiado ancha */
+    }
+}
+
+/* Para móviles: 1 imagen por fila */
+@media (max-width: 600px) {
+    .containerRRSS article {
+        grid-template-columns: 1fr; /* 1 columna */
+    }
+
+    .containerRRSS picture:nth-child(3) { 
+        grid-column: auto; /* Reinicia el ajuste de columnas */
+        max-width: 100%; /* La imagen vuelve a ocupar todo el ancho */
+    }
+}
