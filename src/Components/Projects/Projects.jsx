@@ -78,9 +78,9 @@ const Projects = () => {
                 </section>
             </div>
             
-            <div className='containerProjectsDiv'>
+            {/* <div className='containerProjectsDiv'>
                 <h2 className='styleH2'><strong>Ejemplos de nuestros Servicios de Marketing</strong></h2>
-            </div>
+            </div> */}
         </>
     )
 }

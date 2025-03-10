@@ -1,9 +1,9 @@
+import { Link } from "react-router-dom";
 import whatsapp from "../../assets/imgs/whatsapp.png";
-import whatsappDos from "../../assets/imgs/whatsappDos.png";
+// import whatsappDos from "../../assets/imgs/whatsappDos.png";
 import ig from "../../assets/imgs/instagramFooter.png";
 import fb from "../../assets/imgs/facebookFooter.png";
 import './footer.css';
-import { Link } from "react-router-dom";
 
 const Footer = () => {
     let year = new Date();
@@ -48,11 +48,11 @@ const Footer = () => {
                                     <img className="imgStyle" src={whatsapp} alt="whatsapp" /> +54 11 2739-8858
                                 </a>
                             </div>
-                            <div>
+                            {/* <div>
                                 <a href="https://wa.me/+5401122524921" target="_blank" rel="noreferrer">
                                     <img className="imgStyle" src={whatsappDos} alt="whatsapp" /> +54 9 11 2252-4921
                                 </a>
-                            </div>
+                            </div> */}
                         </section>
                     </div>
                 </div>
