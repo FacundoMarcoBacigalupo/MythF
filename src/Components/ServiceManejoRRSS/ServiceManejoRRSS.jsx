@@ -72,7 +72,7 @@ const ServicesMarketing = () => {
             </section>
 
             <div className="listosContactanos">
-                <h2><strong>¿Listo para llevar tu presencia online al siguiente nivel? <Link to={"/contacto"}>Contáctanos</Link> y trabajemos juntos en la creación de tu sitio web ideal.</strong></h2>
+                <h2><strong>¿Listo para llevar tu presencia online al siguiente nivel? <Link to={"/contacto"}>Contáctanos</Link> y trabajemos juntos en el manejo de tus Redes Sociales.</strong></h2>
             </div>
         </>
     )

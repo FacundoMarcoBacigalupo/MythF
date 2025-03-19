@@ -95,7 +95,7 @@ const ServiceSoftware = () => {
         </section>
         
         <div className="listosContactanos">
-            <h2><strong>¿Listo para llevar tu presencia online al siguiente nivel? <Link to={"/contacto"}>Contáctanos</Link> y trabajemos juntos en la creación de tu sitio web ideal.</strong></h2>
+            <h2><strong>¿Listo para llevar tu presencia online al siguiente nivel? <Link to={"/contacto"}>Contáctanos</Link> y elegi tu paquete ideal de Software.</strong></h2>
         </div>
         </>
     )
